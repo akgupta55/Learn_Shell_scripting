@@ -19,7 +19,6 @@ echo "CPU" > comp_parts.txt
 
 # TODO: Display the contents of "comp_parts.txt"
 cat comp_parts.txt
-echo
 
 # TODO: Copy "comp_parts.txt" to "comp_parts_backup.txt"
 cp comp_parts.txt comp_parts_backup.txt
