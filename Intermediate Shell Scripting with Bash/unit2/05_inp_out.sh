@@ -37,3 +37,4 @@ square() {
 
     # TODO: Display the contents of output.txt
     cat output.txt
+# ///
