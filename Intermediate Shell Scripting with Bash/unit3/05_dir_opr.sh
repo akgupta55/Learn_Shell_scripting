@@ -79,3 +79,4 @@ cat ocean/island/clue4.txt >> all_clues.txt
 cat treasure_hunt/clue5.txt >> all_clues.txt
 # Print contents of all_clues.txt
 cat all_clues.txt
+#
