@@ -1,0 +1,34 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages have been kept back:
+  libegl-mesa0 libgbm1 libgl1-mesa-dri libglx-mesa0 mesa-libgallium
+  mesa-vulkan-drivers
+The following packages will be upgraded:
+  coreutils dconf-gsettings-backend dconf-service dpkg landscape-client
+  landscape-common libdconf1 openssh-client python3-software-properties
+  software-properties-common systemd-hwe-hwdb
+11 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+Inst coreutils [9.4-3ubuntu6] (9.4-3ubuntu6.1 Ubuntu:24.04/noble-updates [amd64])
+Conf coreutils (9.4-3ubuntu6.1 Ubuntu:24.04/noble-updates [amd64])
+Inst dpkg [1.22.6ubuntu6.1] (1.22.6ubuntu6.2 Ubuntu:24.04/noble-updates [amd64])
+Conf dpkg (1.22.6ubuntu6.2 Ubuntu:24.04/noble-updates [amd64])
+Inst systemd-hwe-hwdb [255.1.4] (255.1.5 Ubuntu:24.04/noble-updates [all])
+Inst openssh-client [1:9.6p1-3ubuntu13.13] (1:9.6p1-3ubuntu13.14 Ubuntu:24.04/noble-updates [amd64])
+Inst dconf-gsettings-backend [0.40.0-4build2] (0.40.0-4ubuntu0.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst dconf-service [0.40.0-4build2] (0.40.0-4ubuntu0.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libdconf1 [0.40.0-4build2] (0.40.0-4ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst landscape-client [24.02-0ubuntu5.3] (24.02-0ubuntu5.6 Ubuntu:24.04/noble-updates [amd64]) []
+Inst landscape-common [24.02-0ubuntu5.3] (24.02-0ubuntu5.6 Ubuntu:24.04/noble-updates [amd64])
+Inst software-properties-common [0.99.49.2] (0.99.49.3 Ubuntu:24.04/noble-updates [all]) []
+Inst python3-software-properties [0.99.49.2] (0.99.49.3 Ubuntu:24.04/noble-updates [all])
+Conf systemd-hwe-hwdb (255.1.5 Ubuntu:24.04/noble-updates [all])
+Conf openssh-client (1:9.6p1-3ubuntu13.14 Ubuntu:24.04/noble-updates [amd64])
+Conf dconf-gsettings-backend (0.40.0-4ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf dconf-service (0.40.0-4ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libdconf1 (0.40.0-4ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf landscape-client (24.02-0ubuntu5.6 Ubuntu:24.04/noble-updates [amd64])
+Conf landscape-common (24.02-0ubuntu5.6 Ubuntu:24.04/noble-updates [amd64])
+Conf software-properties-common (0.99.49.3 Ubuntu:24.04/noble-updates [all])
+Conf python3-software-properties (0.99.49.3 Ubuntu:24.04/noble-updates [all])
