@@ -1,0 +1,18 @@
+In this task, you will observe how different shell scripts handle errors and return exit statuses. The scripts are:
+
+custom_exit.sh:
+This script exits with a custom status code (42).
+cat_file.sh:
+This script attempts to display the contents of a file passed as an argument.
+If the file exists, it prints the contents and exits with status 0.
+If the file does not exist, it prints an error message and exits with the exit status of the cat command.
+set_e.sh:
+This script uses set -e to exit immediately if any command within the script exits with a non-zero status.
+It tries to list a non-existent directory, which will cause the script to exit before completing all its commands.
+solution.sh:
+Calls the ls command on an existing and nonexisting directory
+Calls ./custom_exit.sh
+Calls ./cat_file.sh projects/file.txt which is an existing file
+Calls ./cat_file.sh nonexistent_file which is not an existing file
+Calls ./set_e.sh
+Run the code to observe how different scenarios are handled and how exit statuses are captured and displayed. Don't forget to check what errors occur.

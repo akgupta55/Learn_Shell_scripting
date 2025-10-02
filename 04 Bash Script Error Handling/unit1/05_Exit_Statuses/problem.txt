@@ -1,0 +1,18 @@
+In this task, you will complete three shell scripts to demonstrate mastery over handling shell script exit statuses.
+
+solution.sh:
+
+Make the scripts executable.
+Execute division.sh with different argument combinations to observe and display exit statuses (1, 2, and 0).
+Execute find_passwords.sh and display its exit status.
+division.sh:
+
+Check if the number of arguments is not equal to 2. If the check fails, print a descriptive error message and exit with status 1.
+Check if the denominator is 0. If it is, print a descriptive error message and exit with status 2.
+If there are 2 arguments and the denominator is not 0, print the division result and exit with status 0.
+find_passwords.sh:
+
+Ensure the script exits immediately if an error is encountered using appropriate commands.
+Change the working directory to passwords
+Attempt to display the contents of admin_password.txt (this command will intentionally fail), and handle the exit status accordingly.
+Complete the TODOs in the given starter code files to achieve these goals. Be sure to test your scripts to ensure they handle exit statuses as expected.

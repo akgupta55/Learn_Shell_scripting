@@ -1,0 +1,14 @@
+Read message aloud
+In this task, you will complete a script that checks if a user can login as an admin.
+
+The solution.sh file should:
+
+Make admin_login.sh executable
+Print the contents of credentials.txt and print the exit status
+Run admin_login.sh will correct credentials and print the exit status
+Run admin_login.sh with incorrect credentials and print the exit status
+The admin_login.sh file should:
+
+Check if the username is "admin" and password is "secure"
+Exit with a success (0) or failure exit code based on the input (42)
+Follow the TODO comments to complete the script.

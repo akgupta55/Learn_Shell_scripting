@@ -1,0 +1,35 @@
+In this task, you will play the role of a system admin tasked with troubleshooting and updating some shell scripts. This will ensure that they correctly handle exit statuses based on different conditions.
+
+In solution.sh, you need to:
+
+Change the first ls command so it returns a 0 exit status
+Change the second ls command so it returns a non-zero exit status
+In custom_exit.sh, you need:
+
+Adjust the script so that access is granted only to the user "Cosmo".
+If anyone else tries to gain access, the script should politely deny them with an exit status of 42.
+By completing these adjustments, you will ensure that the scripts robustly handle these scenarios and provide accurate status feedback.
+
+The output after running the script should be:
+
+Plain text
+Copy to clipboard
+Running a successful command (ls)...
+file.txt
+Exit status: 0
+
+Running a failing command...
+Exit status: 2
+
+Running successful custom_exit.sh script...
+  Welcome Cosmo
+Exit status of custom_exit.sh: 0
+
+Running failing custom_exit.sh script...
+  Sorry John. Access denied
+Exit status of custom_exit.sh: 42
+You should also get the error:
+
+Plain text
+Copy to clipboard
+ls: cannot access 'my_scripts': No such file or directory

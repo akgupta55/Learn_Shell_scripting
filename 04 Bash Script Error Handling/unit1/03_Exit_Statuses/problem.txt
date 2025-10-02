@@ -1,0 +1,29 @@
+In this task you are provided with some scripts that are not running correctly.
+
+solution.sh is meant to:
+
+Give execution permissions for custom_exit.sh and set_e.sh
+Call ./custom_exit.sh John and print the exit status
+Run set_e.sh and print the exit status
+custom_exit.sh is meant to:
+
+Exit with status 42 if the user is not "Cosmo"
+set_e.sh is meant to:
+
+Stop execution as soon as an error occurs
+The expected output of the script should be:
+
+Plain text
+Copy to clipboard
+Calling custom_exit.sh with John
+  Sorry John. Access denied
+Exit status of custom_exit.sh: 42
+
+Running set_e.sh
+  Running a command that will fail...
+Exit Status of set_e.sh: 2
+You should also see the following error:
+
+ls: cannot access 'nonexistent_directory': No such file or directory
+
+Can you fix the code to get the correct output?
